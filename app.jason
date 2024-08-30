@@ -1,0 +1,52 @@
+
+{
+  "name": "wabotpasiya",
+  "description": "Javascript WhatsApp bot made by pasiya",
+  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
+app.json
+Pasindu Madushan 
+(pasindupasindu2024@gmail.com)
+General Info
+TypeUnknown File
+Size661 bytes
+Modified9:19 PM Aug 15
+Created9:17 PM Aug 15
+Opened by me8:41 AM Aug 27
+Sharing
+Anyone with the link
+Can View
+
+prabathmdofficial
+Owner
+Description
+No description
+Download Permission
+Viewers can download
+Displaying app.json.
